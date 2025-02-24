@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#778899;
+    margin: 25%;
+    background-image: url(Download_Free_Vectors__Images__Photos___Videos___Vecteezy-removebg-preview.png);
+    background-repeat: no-repeat;
+  
+
+img{
+    float: left;
+    margin-right: 10px;
+    height: 400px;
+}
+
+div{
+    background-color:#A9A9A9;
+}
+.intro{
+    border: 1px solid #A9A9A9;
+}
+
+.facts{
+    margin-top: 20px;
+    border: 1px solid #A9A9A9;
+    height: 200px;
+    overflow: auto;
+}
+
+.pagenation{
+    margin-top: 40px;
+    height: 40px;
+    margin-left: 250px;
+}
+
+.pagenation a{
+    padding: 15px;
+    text-decoration: none;
+    background-color: hsl(208, 100%, 97%);
+    margin-left: 20px;
+
+}
+.pagenation a:hover{
+    background-color:  hsl(205, 21%, 51%) ;
+}
+
+ .dropdown a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #A9A9A9;
+ }
+ .dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: #283b4b;
+    margin-left:25% ;
+ }
+ 
+.dropdown button{
+    padding: 10px;
+    background-color:hsl(214, 41%, 78%);
+    border: none;
+    border-radius: 20px;
+    margin-left: 50%;
+}
+button:hover{
+    background-color:hsl(205, 21%, 71%);
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown a:hover{
+    background-color: hsl(207, 30%, 10%) ;
+}
